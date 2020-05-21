@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9314" started-at="2020-05-20T19:55:08 CLT" finished-at="2020-05-20T19:55:17 CLT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="9314" started-at="2020-05-20T19:55:08 CLT" finished-at="2020-05-20T19:55:17 CLT">
+      <class name="pruebas.Laboratorio4_E1">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:pruebas.Laboratorio4_E1@7f13d6e]" name="setUp" is-config="true" duration-ms="9956" started-at="2020-05-20T19:54:58 CLT" finished-at="2020-05-20T19:55:08 CLT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="f()[pri:0, instance:pruebas.Laboratorio4_E1@7f13d6e]" name="f" duration-ms="1171" started-at="2020-05-20T19:55:08 CLT" finished-at="2020-05-20T19:55:09 CLT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="ingreso(java.lang.String, java.lang.String)[pri:1, instance:pruebas.Laboratorio4_E1@7f13d6e]" name="ingreso" duration-ms="2106" started-at="2020-05-20T19:55:10 CLT" data-provider="Registro invalido excel" finished-at="2020-05-20T19:55:13 CLT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Marali]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mb12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ingreso -->
+        <test-method status="PASS" signature="ingreso(java.lang.String, java.lang.String)[pri:1, instance:pruebas.Laboratorio4_E1@7f13d6e]" name="ingreso" duration-ms="2323" started-at="2020-05-20T19:55:13 CLT" data-provider="Registro invalido excel" finished-at="2020-05-20T19:55:15 CLT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pedro]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PP12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ingreso -->
+        <test-method status="PASS" signature="ingreso(java.lang.String, java.lang.String)[pri:1, instance:pruebas.Laboratorio4_E1@7f13d6e]" name="ingreso" duration-ms="1956" started-at="2020-05-20T19:55:15 CLT" data-provider="Registro invalido excel" finished-at="2020-05-20T19:55:17 CLT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Lucas]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ingreso -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:pruebas.Laboratorio4_E1@7f13d6e]" name="afterSuite" is-config="true" duration-ms="953" started-at="2020-05-20T19:55:17 CLT" finished-at="2020-05-20T19:55:18 CLT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- pruebas.Laboratorio4_E1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
